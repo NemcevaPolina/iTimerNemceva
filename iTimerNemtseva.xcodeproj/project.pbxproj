@@ -13,9 +13,6 @@
 		889507CB283C25840060B3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889507C9283C25840060B3FA /* Main.storyboard */; };
 		889507CD283C25860060B3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889507CC283C25860060B3FA /* Assets.xcassets */; };
 		889507D0283C25860060B3FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889507CE283C25860060B3FA /* LaunchScreen.storyboard */; };
-		889507DB283C25860060B3FA /* iTimerNemtsevaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889507DA283C25860060B3FA /* iTimerNemtsevaTests.swift */; };
-		889507E5283C25860060B3FA /* iTimerNemtsevaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889507E4283C25860060B3FA /* iTimerNemtsevaUITests.swift */; };
-		889507E7283C25860060B3FA /* iTimerNemtsevaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889507E6283C25860060B3FA /* iTimerNemtsevaUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		889507CF283C25860060B3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		889507D1283C25860060B3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889507D6283C25860060B3FA /* iTimerNemtsevaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTimerNemtsevaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		889507DA283C25860060B3FA /* iTimerNemtsevaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTimerNemtsevaTests.swift; sourceTree = "<group>"; };
 		889507E0283C25860060B3FA /* iTimerNemtsevaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTimerNemtsevaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		889507E4283C25860060B3FA /* iTimerNemtsevaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTimerNemtsevaUITests.swift; sourceTree = "<group>"; };
-		889507E6283C25860060B3FA /* iTimerNemtsevaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTimerNemtsevaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				889507C2283C25840060B3FA /* iTimerNemtseva */,
-				889507D9283C25860060B3FA /* iTimerNemtsevaTests */,
-				889507E3283C25860060B3FA /* iTimerNemtsevaUITests */,
 				889507C1283C25840060B3FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				889507D1283C25860060B3FA /* Info.plist */,
 			);
 			path = iTimerNemtseva;
-			sourceTree = "<group>";
-		};
-		889507D9283C25860060B3FA /* iTimerNemtsevaTests */ = {
-			isa = PBXGroup;
-			children = (
-				889507DA283C25860060B3FA /* iTimerNemtsevaTests.swift */,
-			);
-			path = iTimerNemtsevaTests;
-			sourceTree = "<group>";
-		};
-		889507E3283C25860060B3FA /* iTimerNemtsevaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				889507E4283C25860060B3FA /* iTimerNemtsevaUITests.swift */,
-				889507E6283C25860060B3FA /* iTimerNemtsevaUITestsLaunchTests.swift */,
-			);
-			path = iTimerNemtsevaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				889507DB283C25860060B3FA /* iTimerNemtsevaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				889507E5283C25860060B3FA /* iTimerNemtsevaUITests.swift in Sources */,
-				889507E7283C25860060B3FA /* iTimerNemtsevaUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
